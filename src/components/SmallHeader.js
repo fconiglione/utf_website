@@ -1,8 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Logo from '../assets/utf-header-logo.png';
 import "../styles/header.css";
 
 function SmallHeader() {
+    useEffect(() => {
+        const currentDate = new Date();
+        const currentMonth = currentDate.getMonth();
+        const buttonElements = document.querySelectorAll('.btn');
+
+        if (currentMonth >= 2 && currentMonth <= 4) {
+            buttonElements.forEach((element) => element.classList.add('spring'));
+        } else if (currentMonth >= 5 && currentMonth <= 7) {
+            buttonElements.forEach((element) => element.classList.add('summer'));
+        } else if (currentMonth >= 8 && currentMonth <= 10) {
+            buttonElements.forEach((element) => element.classList.add('autumn'));
+        } else {
+            buttonElements.forEach((element) => element.classList.add('winter'));
+        }
+    }, []); // The empty dependency array ensures this effect runs only once after the component mounts.
+
     return (
         <div className="small-header">
             <div className="small-screen-header">

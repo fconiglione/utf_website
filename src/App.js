@@ -1,8 +1,6 @@
 import React from "react";
 import "./styles/normalize.css";
 import "./styles/app.css";
-import "./helpers/SeasonalButtons";
-import "./helpers/DropdownMenus";
 import LargeHeader from "./components/LargeHeader";
 import LargeFooter from "./components/LargeFooter";
 import SmallFooter from "./components/SmallFooter";
@@ -25,5 +23,4 @@ function App() {
         </BrowserRouter>
     );
 }
-
 export default App;
