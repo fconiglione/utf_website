@@ -1,24 +1,96 @@
-import React, { useEffect } from 'react';
+import React, {useEffect} from 'react';
 import Logo from '../assets/utf-header-logo.png';
 import "../styles/header.css";
 
 function SmallHeader() {
     useEffect(() => {
-        const currentDate = new Date();
-        const currentMonth = currentDate.getMonth();
-        const buttonElements = document.querySelectorAll('.btn');
+        const hamburgerButton = document.getElementById('hamburger');
+        const smallScreenNav = document.getElementById('small-screen-nav');
+        const smallContentPlaceholder = document.getElementById('small-content-placeholder');
+        let isMenuActive = false;
 
-        if (currentMonth >= 2 && currentMonth <= 4) {
-            buttonElements.forEach((element) => element.classList.add('spring'));
-        } else if (currentMonth >= 5 && currentMonth <= 7) {
-            buttonElements.forEach((element) => element.classList.add('summer'));
-        } else if (currentMonth >= 8 && currentMonth <= 10) {
-            buttonElements.forEach((element) => element.classList.add('autumn'));
-        } else {
-            buttonElements.forEach((element) => element.classList.add('winter'));
+        hamburgerButton.addEventListener('click', function () {
+            isMenuActive = !isMenuActive; // Toggle the boolean flag
+
+            if (isMenuActive) {
+                hamburgerButton.classList.add('active');
+                smallScreenNav.style.display = "flex";
+                if (!smallContentPlaceholder.contains(smallScreenNav)) {
+                    smallContentPlaceholder.appendChild(smallScreenNav);
+                }
+            } else {
+                hamburgerButton.classList.remove('active');
+                if (smallContentPlaceholder.contains(smallScreenNav)) {
+                    smallContentPlaceholder.removeChild(smallScreenNav);
+                }
+            }
+        });
+
+        const sectionData = [
+            {
+                buttonId: 'small-products-btn',
+                contentId: 'small-products-content',
+            },
+            {
+                buttonId: 'small-ai-btn',
+                contentId: 'small-ai-content',
+            },
+            {
+                buttonId: 'small-education-btn',
+                contentId: 'small-education-content',
+            },
+            {
+                buttonId: 'small-support-btn',
+                contentId: 'small-support-content',
+            },
+            {
+                buttonId: 'small-more-btn',
+                contentId: 'small-more-content',
+            },
+        ];
+
+        let activeSection = null;
+
+        function toggleSection(sectionId) {
+            if (sectionId === activeSection) {
+                const button = document.getElementById(sectionId);
+                const content = document.getElementById(sectionId.replace('-btn', '-content'));
+
+                button.classList.remove('active');
+                content.style.display = 'none';
+
+                activeSection = null; // No active section
+            } else {
+                if (activeSection) {
+                    toggleSection(activeSection);
+                }
+
+                sectionData.forEach((section) => {
+                    const button = document.getElementById(section.buttonId);
+                    const content = document.getElementById(section.contentId);
+
+                    if (section.buttonId === sectionId) {
+                        button.classList.add('active');
+                        content.style.display = 'flex';
+                    } else {
+                        button.classList.remove('active');
+                        content.style.display = 'none';
+                    }
+                });
+
+                activeSection = sectionId;
+            }
         }
-    }, []); // The empty dependency array ensures this effect runs only once after the component mounts.
 
+        sectionData.forEach((section) => {
+            const button = document.getElementById(section.buttonId);
+
+            button.addEventListener('click', function () {
+                toggleSection(section.buttonId);
+            });
+        });
+
+    }, []);
     return (
         <div className="small-header">
             <div className="small-screen-header">

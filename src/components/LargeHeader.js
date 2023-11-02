@@ -17,7 +17,126 @@ function LargeHeader() {
         } else {
             buttonElements.forEach((element) => element.classList.add('winter'));
         }
-    }, []); // The empty dependency array ensures this effect runs only once after the component mounts.
+
+        const productsButton = document.getElementById("products-btn");
+        const productsContent = document.getElementById("products-content");
+        const contentPlaceholder = document.getElementById("content-placeholder");
+        const aiButton = document.getElementById("ai-btn");
+        const aiContent = document.getElementById("ai-content");
+        const educationButton = document.getElementById("education-btn");
+        const educationContent = document.getElementById("education-content")
+        const supportButton = document.getElementById("support-btn");
+        const supportContent = document.getElementById("support-content");
+        const moreButton = document.getElementById("more-btn");
+        const moreContent = document.getElementById("more-content");
+        let isContentVisible = false;
+
+        productsButton.addEventListener("click", function () {
+            if (isContentVisible) {
+                productsContent.style.display = "none";
+                contentPlaceholder.innerHTML = "";
+                productsButton.classList.remove("active");
+                educationButton.classList.remove("active");
+                aiButton.classList.remove("active");
+                supportButton.classList.remove("active");
+                moreButton.classList.remove("active");
+            } else {
+                productsContent.style.display = "flex";
+                contentPlaceholder.innerHTML = "";
+                contentPlaceholder.appendChild(productsContent);
+                productsButton.classList.add("active");
+                aiButton.classList.remove("active");
+                educationButton.classList.remove("active");
+                supportButton.classList.remove("active");
+                moreButton.classList.remove("active");
+            }
+            isContentVisible = !isContentVisible;
+        });
+        aiButton.addEventListener("click", function () {
+            if (isContentVisible) {
+                aiContent.style.display = "none";
+                contentPlaceholder.innerHTML = "";
+                aiButton.classList.remove("active");
+                educationButton.classList.remove("active");
+                productsButton.classList.remove("active");
+                supportButton.classList.remove("active");
+                moreButton.classList.remove("active");
+            } else {
+                aiContent.style.display = "flex";
+                contentPlaceholder.innerHTML = "";
+                contentPlaceholder.appendChild(aiContent);
+                aiButton.classList.add("active");
+                productsButton.classList.remove("active");
+                educationButton.classList.remove("active");
+                supportButton.classList.remove("active");
+                moreButton.classList.remove("active");
+            }
+            isContentVisible = !isContentVisible;
+        });
+        educationButton.addEventListener("click", function () {
+            if (isContentVisible) {
+                educationContent.style.display = "none";
+                contentPlaceholder.innerHTML = "";
+                aiButton.classList.remove("active");
+                educationButton.classList.remove("active");
+                productsButton.classList.remove("active");
+                supportButton.classList.remove("active");
+                moreButton.classList.remove("active");
+            } else {
+                educationContent.style.display = "flex";
+                contentPlaceholder.innerHTML = "";
+                contentPlaceholder.appendChild(educationContent);
+                aiButton.classList.remove("active");
+                productsButton.classList.remove("active");
+                educationButton.classList.add("active");
+                supportButton.classList.remove("active");
+                moreButton.classList.remove("active");
+            }
+            isContentVisible = !isContentVisible;
+        });
+        supportButton.addEventListener("click", function () {
+            if (isContentVisible) {
+                supportContent.style.display = "none";
+                contentPlaceholder.innerHTML = "";
+                aiButton.classList.remove("active");
+                educationButton.classList.remove("active");
+                productsButton.classList.remove("active");
+                supportButton.classList.remove("active");
+                moreButton.classList.remove("active");
+            } else {
+                supportContent.style.display = "flex";
+                contentPlaceholder.innerHTML = "";
+                contentPlaceholder.appendChild(supportContent);
+                supportButton.classList.add("active");
+                productsButton.classList.remove("active");
+                educationButton.classList.remove("active");
+                aiButton.classList.remove("active");
+                moreButton.classList.remove("active");
+            }
+            isContentVisible = !isContentVisible;
+        });
+        moreButton.addEventListener("click", function () {
+            if (isContentVisible) {
+                moreContent.style.display = "none";
+                contentPlaceholder.innerHTML = "";
+                aiButton.classList.remove("active");
+                educationButton.classList.remove("active");
+                productsButton.classList.remove("active");
+                supportButton.classList.remove("active");
+                moreButton.classList.remove("active");
+            } else {
+                moreContent.style.display = "flex";
+                contentPlaceholder.innerHTML = "";
+                contentPlaceholder.appendChild(moreContent);
+                moreButton.classList.add("active");
+                productsButton.classList.remove("active");
+                educationButton.classList.remove("active");
+                supportButton.classList.remove("active");
+                aiButton.classList.remove("active");
+            }
+            isContentVisible = !isContentVisible;
+        });
+    }, []);
 
     return (
         <div className="large-header">

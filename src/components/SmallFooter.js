@@ -1,8 +1,74 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Logo from '../assets/utf-footer-logo.png';
 import "../styles/footer.css";
 
 function SmallFooter() {
+    useEffect(() => {
+        const footerData = [
+            {
+                buttonId: 'footer-explore-btn',
+                contentId: 'footer-explore-content',
+            },
+            {
+                buttonId: 'footer-company-btn',
+                contentId: 'footer-company-content',
+            },
+            {
+                buttonId: 'footer-resources-btn',
+                contentId: 'footer-resources-content',
+            },
+            {
+                buttonId: 'footer-popular-btn',
+                contentId: 'footer-popular-content',
+            },
+            {
+                buttonId: 'footer-follow-btn',
+                contentId: 'footer-follow-content',
+            },
+        ];
+
+        let activeFooterSection = null;
+
+        function toggleFooterSection(sectionId) {
+            if (sectionId === activeFooterSection) {
+                const button = document.getElementById(sectionId);
+                const content = document.getElementById(sectionId.replace('-btn', '-content'));
+
+                button.classList.remove('active');
+                content.style.display = 'none';
+
+                activeFooterSection = null; // No active footer section
+            } else {
+                if (activeFooterSection) {
+                    toggleFooterSection(activeFooterSection);
+                }
+
+                footerData.forEach((section) => {
+                    const button = document.getElementById(section.buttonId);
+                    const content = document.getElementById(section.contentId);
+
+                    if (section.buttonId === sectionId) {
+                        button.classList.add('active');
+                        content.style.display = 'flex';
+                    } else {
+                        button.classList.remove('active');
+                        content.style.display = 'none';
+                    }
+                });
+
+                activeFooterSection = sectionId;
+            }
+        }
+
+// Add click event listeners to all footer buttons
+        footerData.forEach((section) => {
+            const button = document.getElementById(section.buttonId);
+
+            button.addEventListener('click', function () {
+                toggleFooterSection(section.buttonId);
+            });
+        });
+    }, []);
     return (
         <div className="small-footer">
             <div className="small-screen-footer">
