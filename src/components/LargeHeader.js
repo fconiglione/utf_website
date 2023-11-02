@@ -156,27 +156,9 @@ function LargeHeader() {
                             </button>
                             <div className="dropdown-content" id="products-content">
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/saturn-crm/">
+                                        <p>Saturn CRM</p>
+                                        <p>Optimize business-customer relationships with cost-effective solutions.</p>
                                     </a>
                                 </div>
                             </div>
@@ -187,27 +169,27 @@ function LargeHeader() {
                             </button>
                             <div className="dropdown-content" id="ai-content">
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/machine-learning/">
+                                        <p>Machine Learning</p>
+                                        <p>Empower your business with machine learning solutions.</p>
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/natural-language-processing/">
+                                        <p>Natural Language Processing</p>
+                                        <p>Transform text data with advanced NLP techniques.</p>
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/computer-vision/">
+                                        <p>Computer Vision</p>
+                                        <p>Augment visual analysis through computer vision technology.</p>
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/ai-ethics/">
+                                        <p>AI Ethics</p>
+                                        <p>Delve into AI ethics and responsible AI practices.</p>
                                     </a>
                                 </div>
                             </div>
@@ -218,27 +200,27 @@ function LargeHeader() {
                             </button>
                             <div className="dropdown-content" id="education-content">
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/utf-academy/">
+                                        <p>UTF Academy</p>
+                                        <p>Explore UTF Academy for individual knowledge and growth.</p>
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/educational-licenses">
+                                        <p>Free Education Licenses</p>
+                                        <p>Students and educators get access to free educational licenses.</p>
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/python-for-education/">
+                                        <p>Python For Education</p>
+                                        <p>Empowering students with Python for the future of AI technologies.</p>
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/internships/">
+                                        <p>Internships</p>
+                                        <p>Embark on internship opportunities for hands-on experience.</p>
                                     </a>
                                 </div>
                             </div>
@@ -249,27 +231,27 @@ function LargeHeader() {
                             </button>
                             <div className="dropdown-content" id="support-content">
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/documentation/">
+                                        <p>Documentation</p>
+                                        <p>Access our comprehensive documentation for guidance and information on products.</p>
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/community/">
+                                        <p>Community</p>
+                                        <p>Uncover our thriving community of learners and enthusiasts.</p>
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/help-center/">
+                                        <p>Help Center</p>
+                                        <p>Find solutions and assistance to common problems in our Help Center.</p>
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/contact/">
+                                        <p>Contact</p>
+                                        <p>Get in touch with us. We're here to answer your questions.</p>
                                     </a>
                                 </div>
                             </div>
@@ -280,27 +262,27 @@ function LargeHeader() {
                             </button>
                             <div className="dropdown-content" id="more-content">
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/about/">
+                                        <p>About UTF</p>
+                                        <p> Learn about our mission in the world of technology and AI.</p>
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/partners/">
+                                        <p>Partners</p>
+                                        <p>Explore our valued partners and collaborators who help us drive innovation.</p>
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/careers/">
+                                        <p>Careers</p>
+                                        <p>Embark on your career with exciting career opportunities at UTF.</p>
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="#">
-                                        <p>Lorem ipsum</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="https://utf.ai/research/">
+                                        <p>Research</p>
+                                        <p>Dive into the world of cutting-edge research in AI and technology.</p>
                                     </a>
                                 </div>
                             </div>

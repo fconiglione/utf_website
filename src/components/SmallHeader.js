@@ -110,16 +110,7 @@ function SmallHeader() {
                             </button>
                             <div className="small-dropdown-content" id="small-products-content">
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
-                                </div>
-                                <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
-                                </div>
-                                <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
-                                </div>
-                                <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/saturn-crm/"><i className="fa-solid fa-turn-up"></i> Saturn CRM</a>
                                 </div>
                             </div>
                         </div>
@@ -130,16 +121,16 @@ function SmallHeader() {
                             </button>
                             <div className="small-dropdown-content" id="small-ai-content">
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/machine-learning/"><i className="fa-solid fa-turn-up"></i> Machine Learning</a>
                                 </div>
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/natural-language-processing/"><i className="fa-solid fa-turn-up"></i> Natural Language Processing</a>
                                 </div>
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/computer-vision/"><i className="fa-solid fa-turn-up"></i> Computer Vision</a>
                                 </div>
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/ai-ethics/"><i className="fa-solid fa-turn-up"></i> AI Ethics</a>
                                 </div>
                             </div>
                         </div>
@@ -150,16 +141,16 @@ function SmallHeader() {
                             </button>
                             <div className="small-dropdown-content" id="small-education-content">
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/utf-academy/"><i className="fa-solid fa-turn-up"></i> UTF Academy</a>
                                 </div>
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/educational-licenses/"><i className="fa-solid fa-turn-up"></i> Free Education Licenses</a>
                                 </div>
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/python-for-education/"><i className="fa-solid fa-turn-up"></i> Python For Education</a>
                                 </div>
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/internships/"><i className="fa-solid fa-turn-up"></i> Internships</a>
                                 </div>
                             </div>
                         </div>
@@ -170,16 +161,16 @@ function SmallHeader() {
                             </button>
                             <div className="small-dropdown-content" id="small-support-content">
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/documentation/"><i className="fa-solid fa-turn-up"></i> Documentation</a>
                                 </div>
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/community/"><i className="fa-solid fa-turn-up"></i> Community</a>
                                 </div>
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/help-center/"><i className="fa-solid fa-turn-up"></i> Help Center</a>
                                 </div>
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/community/"><i className="fa-solid fa-turn-up"></i> Community</a>
                                 </div>
                             </div>
                         </div>
@@ -190,16 +181,16 @@ function SmallHeader() {
                             </button>
                             <div className="small-dropdown-content" id="small-more-content">
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/about/"><i className="fa-solid fa-turn-up"></i> About</a>
                                 </div>
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/partners/"><i className="fa-solid fa-turn-up"></i> Partners</a>
                                 </div>
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/careers/"><i className="fa-solid fa-turn-up"></i> Careers</a>
                                 </div>
                                 <div>
-                                    <a href="#"><i className="fa-solid fa-turn-up"></i> Lorem Ipsum</a>
+                                    <a href="https://utf.ai/research/"><i className="fa-solid fa-turn-up"></i> Research</a>
                                 </div>
                             </div>
                         </div>

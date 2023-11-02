@@ -87,16 +87,16 @@ function SmallFooter() {
                         </button>
                         <div className="footer-dropdown-content" id="footer-explore-content">
                             <div>
-                                <a href="#">What is UTF?</a>
+                                <a href="https://utf.ai/what-is-utf/">What is UTF?</a>
                             </div>
                             <div>
-                                <a href="#">Get Started</a>
+                                <a href="https://utf.ai/get-started/">Get Started</a>
                             </div>
                             <div>
-                                <a href="#">Education</a>
+                                <a href="https://utf.ai/education/">Education</a>
                             </div>
                             <div>
-                                <a href="#">Customer Stories</a>
+                                <a href="https://utf.ai/customer-stories/">Customer Stories</a>
                             </div>
                         </div>
                     </div>
@@ -107,16 +107,16 @@ function SmallFooter() {
                         </button>
                         <div className="footer-dropdown-content" id="footer-company-content">
                             <div>
-                                <a href="#">Careers</a>
+                                <a href="https://utf.ai/careers/">Careers</a>
                             </div>
                             <div>
-                                <a href="#">Newsroom</a>
+                                <a href="https://utf.ai/newsroom/">Newsroom</a>
                             </div>
                             <div>
-                                <a href="#">Investor Relations</a>
+                                <a href="https://utf.ai/investors/">Investor Relations</a>
                             </div>
                             <div>
-                                <a href="#">About UTF</a>
+                                <a href="https://utf.ai/about/">About UTF</a>
                             </div>
                         </div>
                     </div>
@@ -127,16 +127,16 @@ function SmallFooter() {
                         </button>
                         <div className="footer-dropdown-content" id="footer-resources-content">
                             <div>
-                                <a href="#">Support</a>
+                                <a href="https://utf.ai/support/">Support</a>
                             </div>
                             <div>
-                                <a href="#">Help Center</a>
+                                <a href="https://utf.ai/help-center/">Help Center</a>
                             </div>
                             <div>
-                                <a href="#">Licensing FAQs</a>
+                                <a href="https://utf.ai/licensing-faqs/">Licensing FAQs</a>
                             </div>
                             <div>
-                                <a href="#">Contact</a>
+                                <a href="https://utf.ai/contact/">Contact</a>
                             </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@ function SmallFooter() {
                         </button>
                         <div className="footer-dropdown-content" id="footer-popular-content">
                             <div>
-                                <a href="#">Saturn CRM</a>
+                                <a href="https://utf.ai/saturn-crm/">Saturn CRM</a>
                             </div>
                         </div>
                     </div>
@@ -174,7 +174,7 @@ function SmallFooter() {
                         <p>Copyright &copy; <span className="current-year"></span> Universal Technology Framework (UTF). All Rights Reserved.</p>
                     </div>
                     <div>
-                        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Site Map</a></p>
+                        <p><a href="https://utf.ai/privacy-policy/">Privacy Policy</a> | <a href="https://utf.ai/terms-of-use/">Terms of Use</a> | <a href="https://utf.ai/site-map/">Site Map</a></p>
                     </div>
                 </div>
             </div>

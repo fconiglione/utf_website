@@ -17,34 +17,34 @@ function LargeFooter() {
                     <div className="middle-footer-container">
                         <ul>
                             <li className="footer-nav-title">Explore UTF</li>
-                            <li><a href="#">What is UTF?</a></li>
-                            <li><a href="#">Get Started</a></li>
-                            <li><a href="#">Education</a></li>
-                            <li><a href="#">Customer Stories</a></li>
+                            <li><a href="https://utf.ai/what-is-utf/">What is UTF?</a></li>
+                            <li><a href="https://utf.ai/get-started/">Get Started</a></li>
+                            <li><a href="https://utf.ai/education/">Education</a></li>
+                            <li><a href="https://utf.ai/customer-stories/">Customer Stories</a></li>
                         </ul>
                     </div>
                     <div className="middle-footer-container">
                         <ul>
                             <li className="footer-nav-title">Company</li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Newsroom</a></li>
-                            <li><a href="#">Investor Relations</a></li>
-                            <li><a href="#">About UTF</a></li>
+                            <li><a href="https://utf.ai/careers/">Careers</a></li>
+                            <li><a href="https://utf.ai/newsroom/">Newsroom</a></li>
+                            <li><a href="https://utf.ai/investors/">Investor Relations</a></li>
+                            <li><a href="https://utf.ai/about/">About UTF</a></li>
                         </ul>
                     </div>
                     <div className="middle-footer-container">
                         <ul>
                             <li className="footer-nav-title">Resources</li>
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">Help Center</a></li>
-                            <li><a href="#">Licensing FAQs</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="https://utf.ai/support/">Support</a></li>
+                            <li><a href="https://utf.ai/help-center/">Help Center</a></li>
+                            <li><a href="https://utf.ai/licensing-faqs/">Licensing FAQs</a></li>
+                            <li><a href="https://utf.ai/contact/">Contact</a></li>
                         </ul>
                     </div>
                     <div className="middle-footer-container">
                         <ul>
                             <li className="footer-nav-title">Popular Links</li>
-                            <li><a href="#">Saturn CRM</a></li>
+                            <li><a href="https://utf.ai/saturn-crm/">Saturn CRM</a></li>
                         </ul>
                     </div>
                     <div className="middle-footer-container">
@@ -61,7 +61,7 @@ function LargeFooter() {
                         <p>Copyright &copy; <span className="current-year"></span> Universal Technology Framework (UTF). All Rights Reserved.</p>
                     </div>
                     <div>
-                        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Site Map</a></p>
+                        <p><a href="https://utf.ai/privacy-policy/">Privacy Policy</a> | <a href="https://utf.ai/terms-of-use/">Terms of Use</a> | <a href="https://utf.ai/site-map/">Site Map</a></p>
                     </div>
                 </div>
             </div>
