@@ -18,7 +18,13 @@
     color: #000000;
     font-family: "Rubik", sans-serif;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 14px;
+}
+#content-placeholder p {
+    font-size: 14px;
+}
+.small-dropdown-content a {
+    font-size: 1em;
 }
 .dropdown-content p:first-child {
     font-weight: 500;

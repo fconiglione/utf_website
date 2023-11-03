@@ -40,6 +40,7 @@
 .middle-footer-container li {
     margin: 0;
     padding: 10px 0;
+    font-size: 14px;
 }
 .middle-footer-container li:first-child {
     font-weight: 500;
@@ -64,6 +65,7 @@
 }
 .bottom-footer a, .bottom-footer span {
     color: #878787;
+    font-size: 9px;
 }
 @media screen and (max-width: 768px) {
     .large-screen-footer {
@@ -108,7 +110,7 @@
     align-content: center;
     padding: 8px 0;
 }
-.small-bottom-footer p {
+.small-bottom-footer p, .small-bottom-footer a {
     color: #878787;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
