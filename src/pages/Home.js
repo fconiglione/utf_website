@@ -5,6 +5,7 @@ import BenefitsImg1 from '../assets/benefits-img-1.png';
 import BenefitsImg2 from '../assets/benefits-img-2.png';
 import BenefitsImg3 from '../assets/benefits-img-3.png';
 import BenefitsImg4 from '../assets/benefits-img-4.png';
+import FreeEducationLicenses from '../assets/free-education-licenses-img.png';
 import MastheadPreview from '../assets/laptop-phone-tablet-saturn-crm-preview.jpg';
 import "../styles/home.css";
 
@@ -132,7 +133,7 @@ function Home() {
                 <div className="free-access-container">
                     <div>
                         <a href="#">
-                            <img src={Placeholder} alt=""/>
+                            <img src={FreeEducationLicenses} alt="A female student works on her laptop while wearing headphones."/>
                         </a>
                         <a href="#">Students get free educational licenses <i className="fa-solid fa-angles-right"></i></a>
                     </div>
