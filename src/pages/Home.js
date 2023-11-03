@@ -1,6 +1,10 @@
 import React from "react";
 import Placeholder from '../assets/utf-placeholder.png';
 import Computer from '../assets/computer.png';
+import BenefitsImg1 from '../assets/benefits-img-1.png';
+import BenefitsImg2 from '../assets/benefits-img-2.png';
+import BenefitsImg3 from '../assets/benefits-img-3.png';
+import BenefitsImg4 from '../assets/benefits-img-4.png';
 import MastheadPreview from '../assets/laptop-phone-tablet-saturn-crm-preview.jpg';
 import "../styles/home.css";
 
@@ -65,58 +69,58 @@ function Home() {
                 <div className="perks-container">
                     <div className="perks-item">
                         <div>
-                            <img src={Placeholder} alt="#" />
+                            <img src={BenefitsImg1} alt="An illustrative icon showing a man giving a work-related presentation." />
                         </div>
                         <div>
-                            <h5>Lorem ipsum</h5>
+                            <h5>Improved Efficiency</h5>
                         </div>
                         <div>
-                            <h5>Lorem ipsum dolor sit amet,</h5>
+                            <h5>Streamline and automate various business processes, reducing manual labor and human errors.</h5>
                         </div>
                         <div>
-                            <a href="#">Read More <i className="fa-solid fa-caret-right"></i></a>
-                        </div>
-                    </div>
-                    <div className="perks-item">
-                        <div>
-                            <img src={Placeholder} alt="#" />
-                        </div>
-                        <div>
-                            <h5>Lorem ipsum</h5>
-                        </div>
-                        <div>
-                            <h5>Lorem ipsum dolor sit amet,</h5>
-                        </div>
-                        <div>
-                            <a href="#">Read More <i className="fa-solid fa-caret-right"></i></a>
+                            <a href="#">Learn More <i className="fa-solid fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div className="perks-item">
                         <div>
-                            <img src={Placeholder} alt="#" />
+                            <img src={BenefitsImg2} alt="An illustrative icon showing a woman budgeting for her business on her laptop." />
                         </div>
                         <div>
-                            <h5>Lorem ipsum</h5>
+                            <h5>Cost Reduction</h5>
                         </div>
                         <div>
-                            <h5>Lorem ipsum dolor sit amet,</h5>
+                            <h5>Save time and money with optimized resource allocation, reduced waste, and data-driven solutions.</h5>
                         </div>
                         <div>
-                            <a href="#">Read More <i className="fa-solid fa-caret-right"></i></a>
+                            <a href="#">Learn More <i className="fa-solid fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div className="perks-item">
                         <div>
-                            <img src={Placeholder} alt="#" />
+                            <img src={BenefitsImg3} alt="#" />
                         </div>
                         <div>
-                            <h5>Lorem ipsum</h5>
+                            <h5>Enhanced Productivity</h5>
                         </div>
                         <div>
-                            <h5>Lorem ipsum dolor sit amet,</h5>
+                            <h5>Our software empowers employees to work more productively, as they can focus on complex tasks.</h5>
                         </div>
                         <div>
-                            <a href="#">Read More <i className="fa-solid fa-caret-right"></i></a>
+                            <a href="#">Learn More <i className="fa-solid fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                    <div className="perks-item">
+                        <div>
+                            <img src={BenefitsImg4} alt="#" />
+                        </div>
+                        <div>
+                            <h5>Data-Drive Decision Making</h5>
+                        </div>
+                        <div>
+                            <h5>Our solutions provide valuable insights through data analytics to help make informed decisions.</h5>
+                        </div>
+                        <div>
+                            <a href="#">Learn More <i className="fa-solid fa-caret-right"></i></a>
                         </div>
                     </div>
                 </div>

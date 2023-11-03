@@ -1,8 +1,7 @@
 /* Homepage Global */
 
-.masthead, .newsroom-preview, .perks, .free-access, .landing, .subscribe {
-    padding-top: 40px;
-    padding-bottom: 40px;
+.newsroom-preview, .free-access {
+    background-color: #eeeeee;
 }
 
 /* Homepage (masthead) */
@@ -50,8 +49,9 @@
 .masthead-container:first-child div:last-child a:first-child {
     padding: 10px 15px;
     margin: 0;
-    border: none;
     color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
 }
 .masthead-container:first-child div:last-child a:last-child {
     padding: 10px 15px;
@@ -67,8 +67,6 @@
     flex-direction: column;
     gap: 30px;
     height: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 .newsroom-preview h1 {
     color: #000000;
@@ -103,6 +101,9 @@
     gap: 30px;
     padding: 20px;
 }
+.newsroom-preview div:last-child a {
+    background-color: #ffffff;
+}
 .newsroom-preview img {
     width: 100%;
     height: 200px;
@@ -118,8 +119,6 @@
     gap: 30px;
     flex-direction: column;
     height: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 .perks h1 {
     text-align: center;
@@ -137,12 +136,17 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+@media screen and (max-width: 400px) {
+    .perks-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 .perks-item {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 .perks-item h5, .perks-item p, .perks-item a {
     text-align: center;
@@ -152,22 +156,25 @@
     font-weight: 600;
 }
 .perks-item img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 300px;
 }
-@media screen and (max-width: 538px) {
+@media screen and (max-width: 710px) {
+    .perks-item img {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 615px) {
+    .perks-item img {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 500px) {
     .perks-item img {
         width: 150px;
         height: 150px;
-    }
-}
-@media screen and (max-width: 422px) {
-    .perks-item img {
-        width: 100px;
-        height: 100px;
     }
 }
 .perks-item i {
@@ -192,8 +199,6 @@
     gap: 30px;
     flex-direction: column;
     height: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 .free-access h1 {
     text-align: center;
@@ -216,6 +221,7 @@
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
 }
 .free-access-container div:hover {
     transition: transform 0.3s ease-in-out;
@@ -254,8 +260,6 @@
     gap: 30px;
     flex-direction: column;
     height: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 .landing h1 {
     text-align: center;
