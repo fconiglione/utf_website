@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/privacy.css";
 
-function Privacy () {
+function PrivacyPolicy () {
     return (
         <main>
             <section className="privacy-policy">
@@ -55,6 +55,8 @@ function Privacy () {
                     <p className="bold">9. International Transfers</p>
                     <p>Your information may be transferred to or accessed in jurisdictions with varying data protection levels, including the United States and Canada. We use Standard Contractual Clauses or Privacy Shield, where applicable, to protect your data during international transfers.</p>
                     <p className="bold">10. Children</p>
+                    <p>Our website is not intended for users under the age of 13. If you are under 13, do not provide your information.</p>
+                    <p className="bold">11. Contact Us</p>
                     <p>If you have questions or concerns about this Privacy Policy, please contact us at <a href="mailto:legal@utf.ai">legal@utf.ai</a>.</p>
                 </div>
                 <div>
@@ -65,4 +67,4 @@ function Privacy () {
     );
 }
 
-export default Privacy;
+export default PrivacyPolicy;

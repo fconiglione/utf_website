@@ -1,0 +1,21 @@
+.terms-of-use {
+    padding: 5% 15%;
+    font-family: "Montserrat", sans-serif;
+}
+@media screen and (max-width: 900px) {
+    .terms-of-use {
+        padding: 3% 10%;
+    }
+}
+.terms-of-use p, .terms-of-use li, .terms-of-use a {
+    font-weight: 500;
+}
+.terms-of-use div:last-child {
+    padding: 30px 0 0 0;
+}
+.bold {
+    font-weight: 700 !important;
+}
+ol {
+    list-style-type: none;
+}

@@ -7,7 +7,8 @@ import SmallFooter from "./components/SmallFooter";
 import SmallHeader from "./components/SmallHeader";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from "./pages/Home";
-import Privacy from "./pages/Privacy";
+import PrivacyPolicy from "./pages/Privacy-Policy";
+import TermsOfUse from "./pages/Terms-Of-Use";
 
 function App() {
     return (
@@ -17,6 +18,8 @@ function App() {
                 <SmallHeader />
                 <Routes>
                     <Route path="/" element={<Home />} />
+                    <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                    <Route path="/terms-of-use" element={<TermsOfUse />} />
                 </Routes>
                 <LargeFooter />
                 <SmallFooter />
