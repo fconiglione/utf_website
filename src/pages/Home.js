@@ -1,5 +1,6 @@
 import React from "react";
 import Placeholder from '../assets/utf-placeholder.png';
+import Computer from '../assets/computer.png';
 import MastheadPreview from '../assets/laptop-phone-tablet-saturn-crm-preview.jpg';
 import "../styles/home.css";
 
@@ -150,7 +151,7 @@ function Home() {
                     <a className="btn" href="#">Start Free Trial</a>
                 </div>
                 <div>
-                    <img src={Placeholder} alt=""/>
+                    <img src={Computer} alt=""/>
                 </div>
             </section>
         </main>

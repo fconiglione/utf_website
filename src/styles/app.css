@@ -66,10 +66,10 @@ h6 {
     font-weight: 400;
     font-size: 1.2em;
 }
-p, a {
+p, a, li {
     color: #000000;
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 20px;
 }
 header a, footer a, li a {
     font-size: unset;
@@ -105,10 +105,10 @@ header a, footer a, li a {
         font-weight: 400;
         font-size: 1em;
     }
-    p, a {
+    p, a, li {
         color: #000000;
         font-weight: 400;
-        font-size: 1em;
+        font-size: 18px;
     }
     header a, footer a, li a {
         font-size: unset;
@@ -145,10 +145,10 @@ header a, footer a, li a {
         font-weight: 400;
         font-size: 1.2em;
     }
-    p, a {
+    p, a, li {
         color: #000000;
         font-weight: 400;
-        font-size: 1em;
+        font-size: 18px;
     }
     header a, footer a, li a {
         font-size: unset;
@@ -185,10 +185,10 @@ header a, footer a, li a {
         font-weight: 400;
         font-size: 1em;
     }
-    p, a {
+    p, a, li {
         color: #000000;
         font-weight: 400;
-        font-size: 1em;
+        font-size: 18px;
     }
     header a, footer a, li a {
         font-size: unset;
@@ -225,10 +225,10 @@ header a, footer a, li a {
         font-weight: 400;
         font-size: 1em;
     }
-    p, a {
+    p, a, li {
         color: #000000;
         font-weight: 400;
-        font-size: 1.2em;
+        font-size: 20px;
     }
     header a, footer a, li a {
         font-size: unset;
@@ -265,10 +265,10 @@ header a, footer a, li a {
         font-weight: 400;
         font-size: 1.5em;
     }
-    p, a {
+    p, a, li {
         color: #000000;
         font-weight: 400;
-        font-size: 1.5em;
+        font-size: 24px;
     }
     header a, footer a, li a {
         font-size: unset;

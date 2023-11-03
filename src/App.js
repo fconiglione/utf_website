@@ -7,6 +7,7 @@ import SmallFooter from "./components/SmallFooter";
 import SmallHeader from "./components/SmallHeader";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from "./pages/Home";
+import Privacy from "./pages/Privacy";
 
 function App() {
     return (

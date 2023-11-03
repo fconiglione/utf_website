@@ -203,7 +203,7 @@ function SmallHeader() {
                 </div>
                 <div className="small-screen-header-column">
                     <div className="small-login">
-                        <a href="#"><i className="fa-regular fa-user"></i> Login</a>
+                        <a href="https://utf.ai/login/"><i className="fa-regular fa-user"></i> Login</a>
                     </div>
                     <div>
                         <button className="small-free-trial-btn btn">

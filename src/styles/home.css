@@ -172,6 +172,15 @@
 }
 .perks-item i {
     padding-left: 5px;
+    color: #0f62fe;
+}
+.perks-item a {
+    color: #0f62fe;
+    text-decoration: none;
+}
+.perks-item div:last-child:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-5px);
 }
 
 /* Homepage (free-access) */
@@ -218,6 +227,7 @@
     align-items: center;
     gap: 10px;
     text-decoration: none;
+    color: #0f62fe;
 }
 .free-access-container div a:hover {
     text-decoration: underline;
@@ -227,6 +237,7 @@
 }
 .free-access-container div i {
     text-decoration: none;
+    color: #0f62fe;
 }
 .free-access-container img {
     height: 350px;
