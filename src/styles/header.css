@@ -7,6 +7,9 @@
     top: 0;
     z-index: 9999;
 }
+.large-header a, .small-header a {
+    font-size: 16px;
+}
 .dropdown-content {
     display: none;
     flex-direction: row;

@@ -1,0 +1,58 @@
+.not-found {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5%;
+}
+@media screen and (max-width: 888px) {
+    .not-found {
+        flex-direction: column;
+    }
+    .not-found img {
+        width: 60%;
+        height: auto;
+    }
+    .not-found div:first-child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .not-found h1, .not-found h3 {
+        text-align: center;
+        margin: 0;
+    }
+}
+.not-found h1 {
+    font-weight: 600;
+}
+.not-found h3 {
+    font-weight: 500;
+}
+.not-found div {
+    flex: 1;
+}
+.not-found-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.not-found img {
+    width: 70%;
+    height: auto;
+}
+.take-me-home-btn {
+    padding: 10px 15px;
+    margin: 0;
+    border: none;
+    font-family: "Rubik", sans-serif;
+    width: max-content;
+}
+.take-me-home-btn a {
+    text-decoration: none;
+    color: #ffffff;
+}

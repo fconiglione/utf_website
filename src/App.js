@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from "./pages/Home";
 import PrivacyPolicy from "./pages/Privacy-Policy";
 import TermsOfUse from "./pages/Terms-Of-Use";
+import NotFound from "./pages/NotFound";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                     <Route path="/terms-of-use" element={<TermsOfUse />} />
+                    <Route path="*" element={<NotFound />} />
                 </Routes>
                 <LargeFooter />
                 <SmallFooter />
