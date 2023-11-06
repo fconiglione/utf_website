@@ -6,6 +6,7 @@ import BenefitsImg2 from '../assets/benefits-img-2.png';
 import BenefitsImg3 from '../assets/benefits-img-3.png';
 import BenefitsImg4 from '../assets/benefits-img-4.png';
 import FreeEducationLicenses from '../assets/free-education-licenses-img.png';
+import AccessTutorials from '../assets/access-tutorials-img.png';
 import MastheadPreview from '../assets/laptop-phone-tablet-saturn-crm-preview.jpg';
 import "../styles/home.css";
 
@@ -115,7 +116,7 @@ function Home() {
                             <img src={BenefitsImg4} alt="#" />
                         </div>
                         <div>
-                            <h5>Data-Drive Decision Making</h5>
+                            <h5>Data-Driven Decision Making</h5>
                         </div>
                         <div>
                             <h5>Our solutions provide valuable insights through data analytics to help make informed decisions.</h5>
@@ -139,7 +140,7 @@ function Home() {
                     </div>
                     <div>
                         <a href="#">
-                            <img src={Placeholder} alt=""/>
+                            <img src={AccessTutorials} alt="A male employee is assisted by a female employee while completing work on a computer."/>
                         </a>
                         <a href="#">Access tutorials to explore our products <i className="fa-solid fa-angles-right"></i></a>
                     </div>
