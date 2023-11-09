@@ -1,6 +1,6 @@
 import React from "react";
 import Placeholder from '../assets/utf-placeholder.png';
-import Computer from '../assets/computer.png';
+import LandingImg1 from '../assets/landing-img-1.png';
 import BenefitsImg1 from '../assets/benefits-img-1.png';
 import BenefitsImg2 from '../assets/benefits-img-2.png';
 import BenefitsImg3 from '../assets/benefits-img-3.png';
@@ -157,7 +157,7 @@ function Home() {
                     <a className="btn" href="#">Start Free Trial</a>
                 </div>
                 <div>
-                    <img src={Computer} alt=""/>
+                    <img src={LandingImg1} alt=""/>
                 </div>
             </section>
         </main>
