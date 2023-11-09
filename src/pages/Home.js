@@ -7,7 +7,7 @@ import BenefitsImg3 from '../assets/benefits-img-3.png';
 import BenefitsImg4 from '../assets/benefits-img-4.png';
 import FreeEducationLicenses from '../assets/free-education-licenses-img.png';
 import AccessTutorials from '../assets/access-tutorials-img.png';
-import MastheadPreview from '../assets/laptop-phone-tablet-saturn-crm-preview.jpg';
+import MastheadImg1 from '../assets/masthead-img-1.png';
 import "../styles/home.css";
 
 function Home() {
@@ -27,7 +27,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="masthead-container">
-                    <img src={MastheadPreview} alt="The Saturn CRM web app is shown on a tablet, laptop, and mobile phone." />
+                    <img src={MastheadImg1} alt="The Saturn CRM web app is shown on a tablet, laptop, and mobile phone." />
                 </div>
             </section>
             <section className="newsroom-preview">
