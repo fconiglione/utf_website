@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# UTF - Universal Technology Framework
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+UTF is a project representing the online presence of Universal Technology Framework, a small business technology solutions company. This readme provides an overview of the project, outlining the technologies used, contact information, licensing details, and credits for resources utilized.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+The UTF project aims to showcase the expertise and mission of Universal Technology Framework. The official website (utf.ai) is meticulously crafted using a stack of technologies that includes HTML, CSS, React.js, Postgre, Git, and regular JavaScript. The synergy of these technologies ensures a dynamic, responsive, and efficient user interface, embodying the company's commitment to simplifying the entire business process through innovative technology solutions.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **HTML:** Used for structuring the site and creating a solid foundation for web content.
+- **CSS:** Stylesheets are employed to enhance the visual appeal and user experience of the site.
+- **React.js:** The project utilizes the React.js framework for building an interactive and dynamic user interface.
+- **PostgreSQL:** A robust PostgreSQL database is integrated for efficient data storage and retrieval.
+- **Git:** Version control through Git ensures a collaborative and organized development process.
+- **JSON:** JSON is employed for data exchange between the server and the user interface.
+- **JavaScript:** Regular JavaScript enhances functionality and interactivity on the website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contact Information
 
-### `npm test`
+- **Official Website:** [utf.ai](https://utf.ai)
+- **LinkedIn:** [Francesco Coniglione on LinkedIn](https://www.linkedin.com/in/francescoconiglione)
+- **Email:** [fconiglione@thetonio.com](mailto:fconiglione@thetonio.com)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
 
-### `npm run build`
+© 2023 Universal Technology Framework. All Rights Reserved.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Credits
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project acknowledges the use of the following resources:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [React.js](https://reactjs.org)
+- [PostgreSQL](https://www.postgresql.org)
+- [FontAwesome](https://fontawesome.com)
+- [Google Fonts](https://fonts.google.com)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Note:** UTF has not received any sponsorship or endorsement from any of the aforementioned entities.
