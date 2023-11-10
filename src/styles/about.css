@@ -1,0 +1,104 @@
+/* About Page (about-masthead) */
+
+.about-masthead-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    padding: 0 10%;
+}
+@media screen and (max-width: 500px) {
+    .about-masthead-container {
+        padding: 0 5%;
+    }
+}
+.about-masthead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.about-masthead video {
+    width: 600px;
+    height: auto;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 1100px) {
+    .about-masthead video {
+        width: 500px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .about-masthead video {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .about-masthead video {
+        width: 300px;
+    }
+}
+.about-masthead h1, .about-masthead h5, .about-masthead h6 {
+    margin: 0;
+    text-align: center;
+}
+.about-masthead h6 {
+    font-weight: 600;
+}
+.about-masthead h5 {
+    color: #373737;
+}
+
+/* About Page (about-values) */
+
+.about-values {
+    background-color: #eeeeee;
+}
+.about-values-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.about-values-container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    padding: 0 10%;
+}
+@media screen and (max-width: 500px) {
+     .about-values-container div {
+         padding: 0 5%;
+     }
+}
+.about-values h1, .about-values h6, .about-values h5 {
+    margin: 0;
+    text-align: center;
+}
+.about-values h6 {
+    font-weight: 600;
+}
+.about-values h5 {
+    color: #373737;
+}
+.about-values-container img {
+    width: 600px;
+}
+@media screen and (max-width: 1100px) {
+    .about-values-container img {
+        width: 500px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .about-values-container img {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .about-values-container img {
+        width: 300px;
+    }
+}
