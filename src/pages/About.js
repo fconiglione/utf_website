@@ -125,9 +125,6 @@ function About() {
                     </div>
                 </div>
             </section>
-            <section className="about-contact">
-
-            </section>
         </main>
     );
 }
