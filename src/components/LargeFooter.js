@@ -50,9 +50,9 @@ function LargeFooter() {
                     <div className="middle-footer-container">
                         <ul>
                             <li className="footer-nav-title">Follow Us</li>
-                            <li><a href="#">LinkedIn</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Instagram</a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/company/universal-technology-framework-utf/">LinkedIn</a></li>
+                            <li><a target="_blank" href="#">Twitter</a></li>
+                            <li><a target="_blank" href="#">Instagram</a></li>
                         </ul>
                     </div>
                 </div>

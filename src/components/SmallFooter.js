@@ -158,13 +158,13 @@ function SmallFooter() {
                         </button>
                         <div className="footer-dropdown-content" id="footer-follow-content">
                             <div>
-                                <a href="#">LinkedIn</a>
+                                <a target="_blank" href="https://www.linkedin.com/company/universal-technology-framework-utf/">LinkedIn</a>
                             </div>
                             <div>
-                                <a href="#">Twitter</a>
+                                <a target="_blank" href="#">Twitter</a>
                             </div>
                             <div>
-                                <a href="#">Instagram</a>
+                                <a target="_blank" href="#">Instagram</a>
                             </div>
                         </div>
                     </div>
