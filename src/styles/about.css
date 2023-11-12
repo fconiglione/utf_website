@@ -142,6 +142,7 @@
 }
 .values-item i {
     font-size: 60px;
+    padding-bottom: 30px;
 }
 .values-item h2, .values-item i, .values-item h6 {
     margin: 0;
@@ -150,4 +151,83 @@
 }
 .values-item h6 {
     font-weight: 400;
+}
+
+/* About Page (about-impacts) */
+
+.about-impacts {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.about-impacts-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    padding-right: 10%;
+}
+.about-impacts h1, .about-impacts h5, .about-impacts h6 {
+    margin: 0;
+    text-align: left;
+}
+.about-impacts h6 {
+    font-weight: 600;
+}
+.about-impacts h5 {
+    color: #373737;
+}
+.about-impacts-pillar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding-right: 10%;
+}
+@media screen and (max-width: 1000px) {
+    .about-impacts-pillar {
+        flex-direction: column;
+        align-items: unset;
+    }
+}
+.about-impacts-pillar div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.about-impacts img {
+    object-fit: cover;
+    width: 300px;
+    height: auto;
+}
+@media screen and (max-width: 872px) {
+    .about-impacts img {
+        width: 200px;
+    }
+}
+.about-impacts-pillar h3 {
+    margin: 0;
+}
+.about-impacts-pillar h6 {
+    font-weight: 400;
+}
+.about-impacts-pillar i {
+    padding-left: 5px;
+    color: #0f62fe;
+}
+.about-impacts-pillar a {
+    color: #0f62fe;
+    text-decoration: none;
+}
+.about-impacts-pillar a:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-5px);
+}
+.about-impacts hr {
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 2px solid #eeeeee;
+    height: 1px;
+    margin: 0;
 }

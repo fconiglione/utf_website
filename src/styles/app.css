@@ -42,6 +42,7 @@
 body {
     margin: 0;
     padding: 0;
+    line-height: 1.5;
 }
 section {
     padding: 50px 5% 80px 5%;
@@ -156,7 +157,7 @@ header a, footer a, li a {
     h6 {
         color: #000000;
         font-weight: 400;
-        font-size: 1.2em;
+        font-size: 1em;
     }
     p, a, li {
         color: #000000;

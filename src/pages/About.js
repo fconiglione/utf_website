@@ -1,5 +1,8 @@
 import React from "react";
 import VideoPlaceholder from '../assets/video-placeholder.mp4';
+import AboutImpactsImg1 from '../assets/about-impacts-img-1.jpg';
+import AboutImpactsImg2 from '../assets/about-impacts-img-2.jpg';
+import AboutImpactsImg3 from '../assets/about-impacts-img-3.jpg';
 import "../styles/about.css";
 
 function About() {
@@ -29,8 +32,6 @@ function About() {
                         <div className="values-item">
                             <div>
                                 <i className="fa-solid fa-award"></i>
-                            </div>
-                            <div>
                                 <h2>Reliability</h2>
                             </div>
                             <div>
@@ -40,8 +41,6 @@ function About() {
                         <div className="values-item">
                             <div>
                                 <i className="fa-solid fa-lightbulb"></i>
-                            </div>
-                            <div>
                                 <h2>Innovation</h2>
                             </div>
                             <div>
@@ -51,8 +50,6 @@ function About() {
                         <div className="values-item">
                             <div>
                                 <i className="fa-solid fa-heart"></i>
-                            </div>
-                            <div>
                                 <h2>Passion</h2>
                             </div>
                             <div>
@@ -62,8 +59,6 @@ function About() {
                         <div className="values-item">
                             <div>
                                 <i className="fa-solid fa-handshake"></i>
-                            </div>
-                            <div>
                                 <h2>Integrity</h2>
                             </div>
                             <div>
@@ -73,8 +68,6 @@ function About() {
                         <div className="values-item">
                             <div>
                                 <i className="fa-solid fa-users"></i>
-                            </div>
-                            <div>
                                 <h2>Commitment</h2>
                             </div>
                             <div>
@@ -84,8 +77,6 @@ function About() {
                         <div className="values-item">
                             <div>
                                 <i className="fa-solid fa-earth-americas"></i>
-                            </div>
-                            <div>
                                 <h2>Impact</h2>
                             </div>
                             <div>
@@ -95,8 +86,44 @@ function About() {
                     </div>
                 </div>
             </section>
-            <section className="about-initiatives">
-
+            <section className="about-impacts">
+                <div className="about-impacts-container">
+                    <h6>UTF FOR CHANGE</h6>
+                    <h1>Together, changing the world</h1>
+                    <h5>Within the heart of UTF, we are dedicated to reshaping technology experiences and crafting business solutions that transcend convention. We champion a world marked by the simplicity, efficiency, and interconnected brilliance of our creations. Empowering entities to lead impactful change, our core initiatives focus on environmental stewardship, open-source excellence, and advancing digital inclusion.</h5>
+                </div>
+                <div className="about-impacts-pillar">
+                    <div>
+                        <img src={AboutImpactsImg1} alt="A panoramic view of Banff National Park in Alberta, Canada"/>
+                    </div>
+                    <div>
+                        <h3>Environment</h3>
+                        <h6>Climate change is the single-most challenge that humans face. UTF is taking control of its own carbon footprint, and working with organizations around the world to combat the effects of global warming.</h6>
+                        <a href="#">Learn More <i className="fa-solid fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <hr/>
+                <div className="about-impacts-pillar">
+                    <div>
+                        <img src={AboutImpactsImg2} alt="A female software engineer works on an open source project"/>
+                    </div>
+                    <div>
+                        <h3>Open-Source Projects</h3>
+                        <h6>Open-source projects are the foundation to learning and developing code. UTF has committed to transparency in all of its projects and has taken the initiative to launch and support new open-source projects regularly.</h6>
+                        <a href="#">Learn More <i className="fa-solid fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <hr/>
+                <div className="about-impacts-pillar">
+                    <div>
+                        <img src={AboutImpactsImg3} alt="Team members collaborate together on a project"/>
+                    </div>
+                    <div>
+                        <h3>Digital Inclusion</h3>
+                        <h6>Enabling universal access to technology is paramount in our digitally inclusive future. UTF leverages its technology to ensure equitable access, making universal participation in the digital realm a fundamental priority.</h6>
+                        <a href="#">Learn More <i className="fa-solid fa-caret-right"></i></a>
+                    </div>
+                </div>
             </section>
             <section className="about-contact">
 
